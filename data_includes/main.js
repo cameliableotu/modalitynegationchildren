@@ -1469,6 +1469,8 @@ PennController("experiment" ,
 		,
 	       newKey(" ")
         .wait()
+	       )
+;
 PennController("experiment" ,
 	    defaultText
 	        .print()
