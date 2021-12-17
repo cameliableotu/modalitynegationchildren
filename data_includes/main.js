@@ -8,7 +8,7 @@ PennController( "welcome" ,
     ,
     newText("<p> Salutare tuturor! </p>")
     ,
-    newText("<p> Salutare tuturor, vom juca un joc foarte distractiv împreună cu un vrăjitor, un pui de dragon, nişte umbre care aparţin unor animale şi sunete făcute de ele. (Fii atent şi la sunete deci.) </p>" ),
+    newText("<p> Salutare tuturor, vom juca un joc foarte distractiv împreună. (Fii atent şi la sunete deci.) </p>" ),
     newText("<p> Te rog introdu ID-ul tău, răspunde la nişte întrebări, iar apoi fă click pe butonul de mai jos pentru a începe experimentul.</p>")
     ,
     newTextInput("ID")
@@ -358,7 +358,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bluesweater") )
         .print(),
 	
-		newText ("<p> Copilul pune puloverul galben pe el. </p>")
+		newText ("<p> Copilul pune puloverul galben pe el.</p>")
 	       ,
 		newText ("<p> Cum vei răsplati copilul? </p>")
 	        ,
@@ -385,7 +385,440 @@ newSelector()
 .log( "ID" , getVar("ID") )
 ;
 		
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare: lapte şi ciocolatǎ. </p>"),
+                newText ("<p> Tatǎl îi spune bǎiatului “Nu trebuie sǎ bei lapte. O sǎ mǎ supǎr dacǎ faci asta.” </p>"),
+		  newImage("milk", "chocolate.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("chocolate", "chocolate.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("milk") )
+        .settings.add( 250 , 0 , getImage("chocolate") )
+        .print(),
+	
+		newText ("<p> Bǎiatul bea ciocolatǎ. </p>")
+	       ,
+		newText ("<p> Cum vei răsplati copilul? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
 
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Mama şi fata se uitǎ la douǎ fructe (un mǎr şi o bananǎ).</p>"),	
+                newText ("<p> Mama îi spune fetei “Nu e nevoie sǎ mǎnânci banana. M-aş bucura sǎ ştiu cǎ mǎnânci oricare fruct.” </p>"),
+		  newImage("apple", "apple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("banana", "banana.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("apple") )
+        .settings.add( 250 , 0 , getImage("banana") )
+        .print(),
+	
+		newText ("<p> Fata mǎnâncǎ banana. Cum vei răsplati copilul? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+	
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunicul şi bǎiatul se uitǎ la douǎ jucǎrii: un pinguin şi o cǎmilǎ.</p>"),	
+                newText ("<p> Bunicul îi spune bǎiatului “Nu trebuie sǎ te joci cu pinguinul. M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii.”</p>"),
+      newImage("penguin", "penguin.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("camel", "camel.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("penguin") )
+        .settings.add( 250 , 0 , getImage("camel") )
+        .print(),
+	
+		newText ("<p> Bǎiatul se joacǎ cu cǎmila. Cum vei răsplati bǎiatul? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunicul şi bǎiatul se uitǎ la douǎ jucǎrii: o minge şi o maşinuţǎ.</p>"),	
+                newText ("<p> Bunicul îi spune bǎiatului “Trebuie sǎ nu te joci cu maşinuţa. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+      newImage("ball", "ball.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("car", "car.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("ball") )
+        .settings.add( 250 , 0 , getImage("car") )
+        .print(),
+	
+		newText ("<p> Bǎiatul se joacǎ cu mingea. Cum vei răsplati bǎiatul? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Mama şi fata se uitǎ la douǎ fructe (o portocalǎ şi o parǎ).</p>"),	
+                newText ("<p> Mama îi spune fetei “Nu trebuie sǎ mǎnânci portocala. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+      newImage("orange", "orange.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("pear", "pear.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("orange") )
+        .settings.add( 250 , 0 , getImage("pear") )
+        .print(),
+	
+	newText ("<p> Fata mǎnâncǎ portocala. Cum vei răsplati fata? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunica şi fata se uitǎ la douǎ perechi de pantaloni (pantaloni roşii şi pantaloni albaştri).</p>"),	
+                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi pantalonii roşii. M-aş bucura sǎ ştiu cǎ porţi oricare pereche de pantaloni.”</p>"),
+      newImage("redtrousers", "redtrousers.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("bluetrousers", "bluetrousers.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("redtrousers") )
+        .settings.add( 250 , 0 , getImage("bluetrousers") )
+        .print(),
+	
+	newText ("<p> Fata poartǎ pantalonii albaştri. Cum o vei răsplati pe fatǎ? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare (cu suc de pere şi suc de mere).</p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Nu trebuie sǎ bei suc de pere. M-aş bucura sǎ ştiu cǎ bei oricare dintre ele.”</p>"),
+      newImage("applejuice", "applejuice.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("pearjuice", "pearjuice.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("applejuice") )
+        .settings.add( 250 , 0 , getImage("pearjuice") )
+        .print(),
+	
+	newText ("<p> Bǎiatul bea suc de mere. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare (cu suc de spanac şi suc de morcovi).</p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Trebuie sǎ nu bei suc de spanac. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+      newImage("spinachjuice", "spinach.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("carrotjuice", "carrotjuice.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("spinachjuice") )
+        .settings.add( 250 , 0 , getImage("carrotjuice") )
+        .print(),
+	
+	newText ("<p> Bǎiatul bea suc de spanac. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare (cu suc de spanac şi suc de morcovi).</p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Trebuie sǎ nu bei suc de spanac. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+      newImage("spinachjuice", "spinach.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("carrotjuice", "carrotjuice.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("spinachjuice") )
+        .settings.add( 250 , 0 , getImage("carrotjuice") )
+        .print(),
+	
+	newText ("<p> Bǎiatul bea suc de spanac. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunica şi fata  se uitǎ la douǎ tricouri (unul verde şi unul mov).</p>"),	
+                newText ("<p> Bunica îi spune fetei  “Nu trebuie sǎ  porţi tricoul verde. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+      newImage("greentshirt", "greentshirt.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("purpletshirt", "purpletshirt.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("greentshirt") )
+        .settings.add( 250 , 0 , getImage("purpletshirt") )
+        .print(),
+	
+	newText ("<p> Fata poartă tricoul mov. Cum o vei răsplati pe fatǎ? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+Bunica şi copilul se uitǎ la douǎ pulovere (unul galben şi unul albastru).
+Bunica îi spune copilului “Nu trebuie sǎ porţi puloverul galben. O sǎ mǎ supǎr dacǎ faci asta.”
+Copilul pune puloverul galben pe el. 
 
 
 PennController.SendResults( "send" );
