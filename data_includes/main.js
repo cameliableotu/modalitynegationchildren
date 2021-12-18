@@ -816,9 +816,263 @@ newSelector()
 .log( "ID" , getVar("ID") )
 ;
 
-Bunica şi copilul se uitǎ la douǎ pulovere (unul galben şi unul albastru).
-Bunica îi spune copilului “Nu trebuie sǎ porţi puloverul galben. O sǎ mǎ supǎr dacǎ faci asta.”
-Copilul pune puloverul galben pe el. 
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Mama şi fata se uitǎ la douǎ fructe (o nectarinǎ şi un kiwi).</p>"),	
+                newText ("<p> Mama îi spune fetei “Nu e nevoie sǎ mǎnânci kiwi-ul. M-aş bucura sǎ ştiu cǎ mǎnânci oricare dintre fructe. ”</p>"),
+      newImage("nectarine", "nectarine.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("kiwi", "kiwi.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("nectarine") )
+        .settings.add( 250 , 0 , getImage("kiwi") )
+        .print(),
+	
+	newText ("<p> Fata mǎnâncǎ nectarina. Cum o vei răsplati pe fatǎ? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ jucǎrii: un camion şi o raţǎ. </p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Nu trebuie sǎ te joci cu raţa. M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii. ”</p>"),
+      newImage("truck", "truck.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("duck", "duck.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("truck") )
+        .settings.add( 250 , 0 , getImage("duck") )
+        .print(),
+	
+	newText ("<p> Bǎiatul se joacǎ cu raţa. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de caramel şi un ceai de scorţişoarǎ. </p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Nu e nevoie sǎ bei ceai de scorţişoarǎ. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi. ”</p>"),
+      newImage("carameltea", "carameltea.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("cinnamontea", "cinnamontea.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("carameltea") )
+        .settings.add( 250 , 0 , getImage("cinnamon") )
+        .print(),
+	
+	newText ("<p> Bǎiatul bea ceai de caramel. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de caramel şi un ceai de scorţişoarǎ. </p>"),	
+                newText ("<p> Tatǎl îi spune bǎiatului “Nu e nevoie sǎ bei ceai de scorţişoarǎ. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi. ”</p>"),
+      newImage("carameltea", "carameltea.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("cinnamontea", "cinnamontea.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("carameltea") )
+        .settings.add( 250 , 0 , getImage("cinnamon") )
+        .print(),
+	
+	newText ("<p> Bǎiatul bea ceai de caramel. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunica şi fata se uitǎ la douǎ pǎlǎrii: una neagrǎ şi una portocalie. </p>"),	
+                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi pǎlǎria neagrǎ. M-aş bucura sǎ ştiu cǎ porţi oricare dintre pǎlǎrii. ”</p>"),
+      newImage("blackhat", "blackhat.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("orangehat", "orangehat.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("blackhat") )
+        .settings.add( 250 , 0 , getImage("orangehat") )
+        .print(),
+	
+	newText ("<p> Fata poartǎ pǎlǎria portocalie. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Bunica şi fata se uitǎ la douǎ pǎlǎrii: una neagrǎ şi una portocalie. </p>"),	
+                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi pǎlǎria neagrǎ. M-aş bucura sǎ ştiu cǎ porţi oricare dintre pǎlǎrii. ”</p>"),
+      newImage("blackhat", "blackhat.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("orangehat", "orangehat.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("carameltea") )
+        .settings.add( 250 , 0 , getImage("cinnamon") )
+        .print(),
+	
+	newText ("<p> Fata poartǎ pǎlǎria portocalie. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
 
 
 PennController.SendResults( "send" );
