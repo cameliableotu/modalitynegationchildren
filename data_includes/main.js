@@ -1761,6 +1761,9 @@ newSelector()
 .log( "ID" , getVar("ID") )
 ;
 
+The father and the boy are looking at two glasses: hot cocoa and orange juice
+The father tells the boy, “(Nu trebuie sa) You don't have to drink hot cocoa. I'd be glad to know you're drinking any of these drinks. “
+The boy then drinks orange juice.
 
 PennController.SendResults( "send" );
 PennController( "final" ,
