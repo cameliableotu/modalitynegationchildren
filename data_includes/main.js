@@ -1035,7 +1035,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p> Bunica şi fata se uitǎ la douǎ pǎlǎrii: una neagrǎ şi una portocalie. </p>"),	
-                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi pǎlǎria neagrǎ. M-aş bucura sǎ ştiu cǎ porţi oricare dintre pǎlǎrii. ”</p>"),
+                newText ("<p> Bunica îi spune fetei “Nu trebuie sǎ porţi pǎlǎria neagrǎ. M-aş bucura sǎ ştiu cǎ porţi oricare dintre pǎlǎrii. ”</p>"),
       newImage("blackhat", "blackhat.png")
         .settings.size(200,200)
         // .print()	
