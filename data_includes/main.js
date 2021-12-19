@@ -342,25 +342,26 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Bunica şi copilul se uitǎ la douǎ pulovere (unul galben şi unul albastru). </p>"),
-                newText ("<p> Bunica îi spune copilului “Nu trebuie sǎ porţi puloverul galben. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+
+		newText ("<p> Bunica şi fata se uitǎ la douǎ fulare (un fular alb şi un fular albastru). </p>"),
+                newText ("<p> Bunica îi spune copilului “Trebuie sǎ nu porţi fularul alb. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
 		,
-		  newImage("yellowsweater", "yellowsweater.png")
+		  newImage("whitescarf", "whitescarf.png")
         .settings.size(200,200)
         // .print()
     ,
-    newImage("bluesweater", "bluesweater.png")
+    newImage("bluescarf", "bluescarf.png")
         .settings.size(200,200)
         // .print()
     ,
     newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("yellowsweater") )
-        .settings.add( 250 , 0 , getImage("bluesweater") )
+        .settings.add( 0 , 0 , getImage("whitescarf") )
+        .settings.add( 250 , 0 , getImage("bluescarf") )
         .print(),
 	
-		newText ("<p> Copilul pune puloverul galben pe el.</p>")
+		newText ("<p> Fata pune fularul alb pe ea.</p>")
 	       ,
-		newText ("<p> Cum vei răsplati copilul? </p>")
+		newText ("<p> Cum o vei răsplati pe fatǎ? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -388,7 +389,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare: lapte şi ciocolatǎ. </p>"),
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: lapte şi ciocolatǎ. </p>"),
                 newText ("<p> Tatǎl îi spune bǎiatului “Nu trebuie sǎ bei lapte. O sǎ mǎ supǎr dacǎ faci asta.” </p>"),
 		  newImage("milk", "chocolate.png")
         .settings.size(200,200)
@@ -434,7 +435,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p> Mama şi fata se uitǎ la douǎ fructe (un mǎr şi o bananǎ).</p>"),	
-                newText ("<p> Mama îi spune fetei “Nu e nevoie sǎ mǎnânci banana. M-aş bucura sǎ ştiu cǎ mǎnânci oricare fruct.” </p>"),
+                newText ("<p> Mama îi spune fetei: “Nu e nevoie sǎ mǎnânci banana. M-aş bucura sǎ ştiu cǎ mǎnânci oricare fruct.” </p>"),
 		  newImage("apple", "apple.png")
         .settings.size(200,200)
         // .print()
@@ -448,7 +449,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("banana") )
         .print(),
 	
-		newText ("<p> Fata mǎnâncǎ banana. Cum vei răsplati copilul? </p>")
+		newText ("<p> Fata mǎnâncǎ banana. Cum o vei răsplati pe fată? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -662,7 +663,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("pearjuice") )
         .print(),
 	
-	newText ("<p> Bǎiatul bea suc de mere. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p> Bǎiatul bea suc de pere. Cum îl vei răsplati pe bǎiat? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -691,7 +692,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ pahare (cu suc de spanac şi suc de morcovi).</p>"),	
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un suc de spanac şi un suc de morcovi).</p>"),	
                 newText ("<p> Tatǎl îi spune bǎiatului “Trebuie sǎ nu bei suc de spanac. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
       newImage("spinachjuice", "spinach.png")
         .settings.size(200,200)
@@ -776,8 +777,8 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Bunica şi fata  se uitǎ la douǎ tricouri (unul verde şi unul mov).</p>"),	
-                newText ("<p> Bunica îi spune fetei  “Nu trebuie sǎ  porţi tricoul verde. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+		newText ("<p> Bunica şi fata se uitǎ la douǎ tricouri (unul verde şi unul mov).</p>"),	
+                newText ("<p> Bunica îi spune fetei: “Nu trebuie sǎ  porţi tricoul verde. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
       newImage("greentshirt", "greentshirt.png")
         .settings.size(200,200)
         // .print()	
