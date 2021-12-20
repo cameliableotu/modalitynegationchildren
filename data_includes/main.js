@@ -1250,7 +1250,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: suc de cǎpşuni şi suc de mure. </p>"),	
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: suc de cǎpşuni şi suc de struguri. </p>"),	
                 newText ("<p> Tatǎl îi spune bǎiatului: “Nu e nevoie sǎ bei suc de cǎpşuni. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi.”</p>"),
       newImage("strawberryjuice", "strawberryjuice.png")
         .settings.size(200,200)
@@ -1262,7 +1262,7 @@ PennController ("experiment",
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("strawberryjuice") )
-        .settings.add( 250 , 0 , getImage("blackberryjuice") )
+        .settings.add( 250 , 0 , getImage("grapejuice") )
         .print(),
 	
 	newText ("<p> Bǎiatul bea sucul de cǎpşuni. Cum îl vei răsplati pe bǎiat? </p>")
