@@ -905,9 +905,9 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de caramel şi un ceai de scorţişoarǎ. </p>"),	
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de caramel şi un ceai de trandafiri. </p>"),	
                 newText ("<p> Tatǎl îi spune bǎiatului “Nu e nevoie sǎ bei ceai de scorţişoarǎ. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi. ”</p>"),
-      newImage("carameltea", "carameltea.png")
+      newImage("carameltea", "rosetea.png")
         .settings.size(200,200)
         // .print()	
     ,
@@ -916,11 +916,11 @@ PennController ("experiment",
         // .print()
     ,
     newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("carameltea") )
+        .settings.add( 0 , 0 , getImage("rosetea") )
         .settings.add( 250 , 0 , getImage("cinnamontea") )
         .print(),
 	
-	newText ("<p> Bǎiatul bea ceai de caramel. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p> Bǎiatul bea ceai de trandafiri. Cum îl vei răsplati pe bǎiat? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -1037,7 +1037,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p> Mama şi fata se uitǎ la douǎ fructe: o cǎpşunǎ şi o cireaşǎ. </p>"),	
-                newText ("<p> Mama îi spune fetei “Trebuie sǎ nu te joci cu cǎpşunǎ. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+                newText ("<p> Mama îi spune fetei “Nu trebuie sǎ mǎnânci cǎpşuna. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
       newImage("strawberry", "strawberry.png")
         .settings.size(200,200)
         // .print()	
@@ -1051,7 +1051,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("cherry") )
         .print(),
 	
-	newText ("<p> Bǎiatul se joacǎ cu cǎţelul. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p> Fata mǎnâncǎ cǎpşuna. Cum o vei răsplati pe fatǎ? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -1093,7 +1093,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("redsocks") )
         .print(),
 	
-	newText ("<p> Fata poartǎ şosetele roşii. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p> Fata poartǎ şosetele roşii. Cum o vei răsplati pe fatǎ? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -1122,7 +1122,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: o limonadǎ şi un ceai de lǎmâie. </p>"),	
-                newText ("<p> Tatǎl îi spune bǎiatul “Nu trebuie sǎ bei limonadǎ. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
+                newText ("<p> Tatǎl îi spune bǎiatului: “Nu trebuie sǎ bei limonadǎ. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
       newImage("lemonade", "lemonade.png")
         .settings.size(200,200)
         // .print()	
@@ -1250,13 +1250,13 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: suc de cǎpşuni şi suc de struguri. </p>"),	
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: suc de cǎpşuni şi suc de struguri.</p>"),	
                 newText ("<p> Tatǎl îi spune bǎiatului: “Nu e nevoie sǎ bei suc de cǎpşuni. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi.”</p>"),
       newImage("strawberryjuice", "strawberryjuice.png")
         .settings.size(200,200)
         // .print()	
     ,
-    newImage("blackberryjuice", "blackberryjuice.png")
+    newImage("grapejuice", "grapejuice.png")
         .settings.size(200,200)
         // .print()
     ,
@@ -1424,7 +1424,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 
-		newText ("<p>Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi:o apǎ mineralǎ şi un ceai de fructe.</p>"),	
+		newText ("<p>Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi:o apǎ mineralǎ şi un ceai de muşeţel.</p>"),	
                 newText ("<p>Tatǎl îi spune bǎiatului: “Trebuie sǎ nu bei apa mineralǎ. O sǎ mǎ supǎr dacǎ faci asta.”</p>"),
       newImage("sparklingwater", "sparklingwater.png")
         .settings.size(200,200)
@@ -1436,10 +1436,10 @@ PennController ("experiment",
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("sparklingwater") )
-        .settings.add( 250 , 0 , getImage("fruittea") )
+        .settings.add( 250 , 0 , getImage("chamomiletea") )
         .print(),
 	
-	newText ("<p>Bǎiatul bea ceaiul de fructe. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p>Bǎiatul bea ceaiul de muşeţel. Cum îl vei răsplati pe bǎiat? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -1510,7 +1510,7 @@ PennController ("experiment",
 	        .print(),
 	
 		newText ("<p>Tatǎl şi bǎiatul se uitǎ la douǎ jucǎrii: o casǎ şi o bicicletǎ.</p>"),	
-                newText ("<p>Tatǎl îi spune bǎiatului: “Nu e nevoie sǎ te joci cu casa.M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii.”</p>"),
+                newText ("<p>Tatǎl îi spune bǎiatului: “Nu e nevoie sǎ te joci cu casa. M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii.”</p>"),
       newImage("house", "house.png")
         .settings.size(200,200)
         // .print()	
@@ -1554,7 +1554,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p>Mama şi fata se uitǎ la douǎ fructe: o prunǎ şi un ananas.</p>"),	
-                newText ("<p>Mama îi spune fetei: “Nu e nevoie sǎ mǎnânci pruna.M-aş bucura sǎ ştiu cǎ mǎnânci oricare dintre fructe.”</p>"),
+                newText ("<p>Mama îi spune fetei: “Nu trebuie sǎ mǎnânci pruna. M-aş bucura sǎ ştiu cǎ mǎnânci oricare dintre fructe.”</p>"),
       newImage("plum", "plum.png")
         .settings.size(200,200)
         // .print()	
@@ -1654,7 +1654,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bunny") )
         .print(),
 	
-	newText ("<p>Bǎiatul se joacǎ cu ursuleţul. Cum îl vei răsplati pe bǎiat? </p>")
+	newText ("<p>Bǎiatul se joacǎ cu iepuraşul. Cum îl vei răsplati pe bǎiat? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -1682,7 +1682,7 @@ PennController ("experiment",
 		defaultText
 	        .print(),
 		newText ("<p>Bunica şi fata se uitǎ la douǎ perechi de pantaloni: o pereche de pantaloni roşii şi o pereche de pantaloni albaştri.</p>"),	
-                newText ("<p>Bunica îi spune fetei: “Nu e nevoie sǎ porti pantaloni roşii. M-as bucura sa stiu ca porti oricare.”</p>"),
+                newText ("<p>Bunica îi spune fetei: “Nu e nevoie sǎ porti pantaloni roşii. M-aş bucura sǎ ştiu ca porti oricare dintre perechi.”</p>"),
       newImage("redtrousers", "redtrousers.png")
         .settings.size(200,200)
         // .print()	
@@ -1721,9 +1721,50 @@ newSelector()
 .log( "ID" , getVar("ID") )
 ;
 
-The father and the boy are looking at two glasses: hot cocoa and orange juice
-The father tells the boy, “(Nu trebuie sa) You don't have to drink hot cocoa. I'd be glad to know you're drinking any of these drinks. “
-The boy then drinks orange juice.
+
+PennController ("experiment",
+		defaultText
+	        .print(),
+
+		newText ("<p>Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi:o ciocolatǎ caldǎ şi un suc de portocale.</p>"),	
+                newText ("<p>Tatǎl îi spune bǎiatului: “Nu trebuie sǎ bei ciocolatǎ caldǎ. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi.”</p>"),
+      newImage("hotchocolate", "hotchocolate.png")
+        .settings.size(200,200)
+        // .print()	
+    ,
+    newImage("orangejuice", "orangejuice.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("hotchocolate") )
+        .settings.add( 250 , 0 , getImage("orangejuice") )
+        .print(),
+	
+	newText ("<p>Bǎiatul bea suc de portocale. Cum îl vei răsplati pe bǎiat? </p>")
+	        ,
+	       newImage("bluestar", "bluestar.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("blackdot", "blackdot.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bluestar") )
+        .settings.add( 250 , 0 , getImage("blackdot") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bluestar") , getImage("blackdot") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
 
 PennController.SendResults( "send" );
 PennController( "final" ,
