@@ -578,7 +578,7 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("pear") )
         .print(),
 	
-	newText ("<p> Fata mǎnâncǎ portocala. Cum vei răsplati fata? </p>")
+	newText ("<p> Fata mǎnâncǎ para. Cum vei răsplati fata? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
@@ -606,22 +606,22 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Bunica şi fata se uitǎ la douǎ perechi de pantaloni (pantaloni roşii şi pantaloni albaştri).</p>"),	
-                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi pantalonii roşii. M-aş bucura sǎ ştiu cǎ porţi oricare pereche de pantaloni.”</p>"),
-      newImage("redtrousers", "redtrousers.png")
+		newText ("<p> Bunica şi fata se uitǎ la douǎ cǎciuli (o cǎciulǎ verde şi o cǎciula portocalie).</p>"),	
+                newText ("<p> Bunica îi spune fetei “Nu e nevoie sǎ porţi cǎciula portocalie. M-aş bucura sǎ ştiu cǎ porţi oricare dintre cǎciuli.”</p>"),
+      newImage("orangebeanie", "orangebeanie.png")
         .settings.size(200,200)
         // .print()	
     ,
-    newImage("bluetrousers", "bluetrousers.png")
+    newImage("greenbeanie", "greenbeanie.png")
         .settings.size(200,200)
         // .print()
     ,
     newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("redtrousers") )
-        .settings.add( 250 , 0 , getImage("bluetrousers") )
+        .settings.add( 0 , 0 , getImage("orangebeanie") )
+        .settings.add( 250 , 0 , getImage("greenbeanie") )
         .print(),
 	
-	newText ("<p> Fata poartǎ pantalonii albaştri. Cum o vei răsplati pe fatǎ? </p>")
+	newText ("<p> Fata poartǎ cǎciula portocalie. Cum o vei răsplati pe fatǎ? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
         .settings.size(200,200)
