@@ -391,7 +391,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: lapte şi ciocolatǎ. </p>"),
                 newText ("<p> Tatǎl îi spune bǎiatului “Nu trebuie sǎ bei lapte. O sǎ mǎ supǎr dacǎ faci asta.” </p>"),
-		  newImage("milk", "chocolate.png")
+		  newImage("milk", "milk.png")
         .settings.size(200,200)
         // .print()
     ,
@@ -905,7 +905,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de caramel şi un ceai de trandafiri. </p>"),	
+		newText ("<p> Tatǎl şi bǎiatul se uitǎ la douǎ bǎuturi: un ceai de scorţişoarǎ şi un ceai de trandafiri. </p>"),	
                 newText ("<p> Tatǎl îi spune bǎiatului “Nu e nevoie sǎ bei ceai de scorţişoarǎ. M-aş bucura sǎ ştiu cǎ bei oricare dintre bǎuturi. ”</p>"),
       newImage("carameltea", "rosetea.png")
         .settings.size(200,200)
