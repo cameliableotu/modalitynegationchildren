@@ -263,7 +263,7 @@ newText ("<p> Hai să vedem cum te descurci. Mama şi fata se uită la două leg
         .settings.add( 0 , 0 , getImage("pumpkin") )
         .settings.add( 250 , 0 , getImage("cabbage") )
         .print(),
- newText ("<p> Fata ia ceapa de pe masă. </p> "),   
+ newText ("<p> Fata îi aduce dovleacul de pe masă. </p> "),   
 	       newText ("<p> Cum o vei răsplati pe fatǎ? </p>")
 	        ,
 	       newImage("bluestar", "bluestar.png")
@@ -427,9 +427,9 @@ newSelector()
 	
 PennController ("experiment",
 		defaultText
-	        .print(),
+	        .print(),îi
 		newText ("<p> Bunicul şi bǎiatul se uitǎ la douǎ jucǎrii: un pinguin şi o cǎmilǎ.</p>"),	
-                newText ("<p> Bunicul îi spune bǎiatului “Nu trebuie sǎ te joci cu pinguinul. M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii.”</p>"),
+                newText ("<p> Bunicul  spune bǎiatului “Nu trebuie sǎ te joci cu pinguinul. M-aş bucura sǎ ştiu cǎ te joci cu oricare dintre jucǎrii.”</p>"),
       newImage("penguin", "penguin.png")
         .settings.size(200,200)
         // .print()	
